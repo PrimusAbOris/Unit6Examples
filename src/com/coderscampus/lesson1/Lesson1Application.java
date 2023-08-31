@@ -12,7 +12,8 @@ public class Lesson1Application {
 		System.out.println(nickDent.getClasses());
 		System.out.println(nickDent.getLevelOfEducation());
 		nickDent.teach();
-		System.out.println();
+		nickDent.teach("Mr. Dent");
+		System.out.println(); // clearer output
 		
 		CompSciclops benSteele = new CompSciclops();
 		
@@ -25,6 +26,8 @@ public class Lesson1Application {
 		System.out.println(quantumTeacher.getClasses());
 		System.out.println(quantumTeacher.getLevelOfEducation());
 		quantumTeacher.teach();
+		
+		Teacher.teach("Trevor Page", 36);
 	}
 
 }

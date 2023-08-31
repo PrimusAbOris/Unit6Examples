@@ -3,7 +3,6 @@ package com.coderscampus.lesson1;
 public class Teacher {
 	private String classes;
 	private String levelOfEducation;
-	public String name;
 	
 	public Teacher() {
 		// Blank constructor
@@ -21,6 +20,24 @@ public class Teacher {
 	public void teach () {
 		// This is!
 		System.out.println("Teaching in progress...");
+	}
+	
+	public void teach (String teacherName) {
+		// This is called overloading. Like with two different constructors,
+		// you can have two different methods with the same name if they
+		// take different arguments in.
+		System.out.println(teacherName + " doesn't care who says what! " +
+				teacherName + " shall teach the class!");
+	}
+	
+	public static void teach (String teacherName, int age) {
+		System.out.println(teacherName + " doesn't care if his age is " + age + "! " +
+				teacherName + " shall teach the class!");
+	}
+	
+	public void teach (int age) {
+		System.out.println("We don't care what his name is, but a " + age + " year old"
+				+ "teacher shall lead the class.");
 	}
 	
 	public String getClasses() {

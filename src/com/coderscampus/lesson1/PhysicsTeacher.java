@@ -13,4 +13,5 @@ public class PhysicsTeacher extends Teacher {
 		// Overrides teach() method in parent class
 		System.out.println("I don't care who says what! I shall teach Physics!");
 	}
+	
 }
