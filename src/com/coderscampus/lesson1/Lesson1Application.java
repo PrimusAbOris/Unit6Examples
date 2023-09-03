@@ -1,10 +1,14 @@
 package com.coderscampus.lesson1;
 
 import com.coderscampus.lesson1.compsci.CompSciclops;
+import com.coderscampus.lesson6.PackageAccessModifierExample;
 
 public class Lesson1Application {
 	// Unit 6, Lesson 1
 	public static void main(String[] args) {
+		PackageAccessModifierExample example = new PackageAccessModifierExample();
+		System.out.println(example.greatInt);
+		
 		Teacher nickDent = new PhysicsTeacher();
 		//This works too! Good example of polymorphism.
 		//It means you can have something appearing in multiple forms.
