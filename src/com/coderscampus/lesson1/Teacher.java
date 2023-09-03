@@ -36,8 +36,8 @@ public class Teacher {
 	}
 	
 	public void teach (int age) {
-		System.out.println("We don't care what his name is, but a " + age + " year old"
-				+ "teacher shall lead the class.");
+		System.out.println("We don't care what their name is, but a " + age + " year old"
+				+ " teacher shall lead the class.");
 	}
 	
 	public String getClasses() {

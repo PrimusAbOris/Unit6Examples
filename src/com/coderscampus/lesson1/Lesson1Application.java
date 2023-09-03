@@ -1,5 +1,7 @@
 package com.coderscampus.lesson1;
 
+import com.coderscampus.lesson1.compsci.CompSciclops;
+
 public class Lesson1Application {
 	// Unit 6, Lesson 1
 	public static void main(String[] args) {
