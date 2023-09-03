@@ -9,7 +9,7 @@ public class WrapperExampleApplication {
 		int primitiveInt = 4;
 		Integer wrapperInt = 4; // "auto-boxing"; generally better to use this in the big picture
 		int arcaneInt = Integer.valueOf(4); // a method in the Integer class
-		Integer arcaneWrapperInt = Integer.valueOf(4);
+		Integer arcaneWrapperInt = Integer.valueOf(4); // "un-boxing"; might appear in an interview
 		
 		String aNumber = "123";
 		String anotherNumber = "456";
